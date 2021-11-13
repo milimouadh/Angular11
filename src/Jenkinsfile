@@ -1,0 +1,13 @@
+pipline{
+agent any
+agent {
+'the agent'
+}
+stages('Build'){
+steps{
+sh 'npm install'
+sh 'npm start'
+}
+
+}
+}
