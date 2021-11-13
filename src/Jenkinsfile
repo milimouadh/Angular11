@@ -1,7 +1,7 @@
 pipline{
-agent any
+
 agent {
-'the agent'
+'mouadh'
 }
 stages('Build'){
 steps{
